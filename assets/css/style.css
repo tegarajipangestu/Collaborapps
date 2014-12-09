@@ -44,7 +44,7 @@ a, a:hover, a:focus {
 
 /* Bootstrap Modifications */
 .modal-header {
-	background: #68dff0;
+	background: #264348;
 }
 
 .modal-title {
@@ -92,7 +92,7 @@ a, a:hover, a:focus {
 
 .btn-theme {
   color: #fff;
-  background-color: #68dff0;
+  background-color: #264348;
   border-color: #48bcb4;
 }
 .btn-theme:hover,
@@ -223,8 +223,19 @@ ul.top-menu > li > .logout {
 	margin-right: 15px;
 	background: #68dff0;
 	margin-top: 15px;
+    float:right;
 }
 
+#addnewmeeting
+{
+    text-align: center;
+    font-size: 20px;
+    background: #68dff0;
+    color: #f2f2f2;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1px solid #64c3c2 !important;
+}
 
 /*sidebar navigation*/
 
@@ -451,13 +462,13 @@ a.logo span {
 
 /*notification*/
 #top_menu .nav > li, ul.top-menu > li {
-    float: left;
+    float: right;
 }
 
 .notify-row {
-    float: left;
+    float: right;
     margin-top: 15px;
-    margin-left: 92px;
+    margin-left: 15px;
 }
 
 .notify-row .notification span.label {
@@ -1936,7 +1947,7 @@ label {
 	margin: 0;
 	padding: 25px 20px;
 	text-align: center;
-	background: #68dff0;
+	background: #264348;
 	border-radius: 5px 5px 0 0;
 	-webkit-border-radius: 5px 5px 0 0;
 	color: #fff;
@@ -2008,6 +2019,7 @@ label {
   color: #fff;
   background-color: #2775e2;
   border-color: #2775e2;
+  float:right;
 }
 
 .btn-twitter {
